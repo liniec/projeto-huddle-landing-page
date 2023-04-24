@@ -24,7 +24,7 @@ Users should be able to:
 ![](./src/images/desktop-preview.jpg)
 
 ### Links
-[Live Site URL]()
+[Live Site URL](https://liniec.github.io/projeto-huddle-landing-page/)
 
 ## Built with
 
