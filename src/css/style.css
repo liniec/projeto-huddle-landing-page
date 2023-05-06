@@ -51,7 +51,7 @@ body {
     margin-left: 30px;
     font-family: 'Poppins', sans-serif;
     color: hsl(257, 40%, 49%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.7);
     transition: 0.3s;
 }
 
@@ -72,16 +72,14 @@ body {
     padding: 30px;
 }
 
-/* sem isso não consegui colocar o ícone do face total redondo */
-.footer .social .fa-brands.fa-facebook-f {
-    padding: 4px 4px;
-}
-
 .footer .social a {
-    display: inline-block;
+    display: inline-flex;
     color: #fff;
     border-radius: 50%;
-    padding: 5px 10px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
     margin-right: 15px;
     border: solid 1px #fff;
     transition: 0.3s;
@@ -89,8 +87,5 @@ body {
 
 .footer .social a:hover {
     color: hsl(300, 69%, 71%);
-    border-radius: 50%;
-    padding: 5px 10px;
-    margin-right: 15px;
     border: solid 1px hsl(300, 69%, 71%);
 }
